@@ -23,8 +23,10 @@ class MainActivity : AppCompatActivity() {
         tvHasil = findViewById(R.id.tvHasil)
 
         btnTampilkan.setOnClickListener {
-            val nama = etNama.text.toString()
-            val nim = etNim.text.toString()
+        //val nama = etNama.text.toString() [Kondisional Jika ingin seseuai inputan]
+        //val nim = etNim.text.toString() [Kondisional Jika ingin seseuai inputan]
+        val nama = "Achmad Firdaus Attalea Yessa"
+        val nim = "225150407111086"
             tvHasil.text = "Nama: $nama\nNIM: $nim"
         }
     }
